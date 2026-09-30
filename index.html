@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Orian Sharoni — researcher in generative AI for music and speech. View and download my CV.">
+  <title>Orian Sharoni · CV</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #edf1f5; color: #203044; font-family: system-ui, sans-serif; }
+    header { max-width: 1000px; margin: auto; padding: 22px 24px; display: flex; gap: 20px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+    h1 { margin: 0; font-size: 21px; font-weight: 600; }
+    p { margin: 5px 0 0; color: #536173; font-size: 14px; }
+    nav { display: flex; gap: 12px; align-items: center; }
+    a { color: #204d80; text-underline-offset: 3px; }
+    .download { background: #204d80; color: white; border-radius: 6px; padding: 10px 15px; text-decoration: none; }
+    main { max-width: 1000px; margin: 0 auto; padding: 0 16px 20px; }
+    object { display: block; width: 100%; height: calc(100vh - 110px); min-height: 560px; border: 0; background: white; }
+    .fallback { padding: 32px; line-height: 1.6; }
+    a:focus-visible { outline: 3px solid #a64d00; outline-offset: 4px; }
+    @media (max-width: 600px) { header { padding: 18px 16px; } object { height: 78vh; min-height: 440px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div><h1>Orian Sharoni · CV</h1><p>September 2026</p></div>
+    <nav aria-label="CV files">
+      <a href="orian-sharoni-cv.pdf">Open PDF</a>
+      <a class="download" href="orian-sharoni-cv.pdf" download="Orian_Sharoni_CV_2026-09.pdf">Download PDF</a>
+    </nav>
+  </header>
+  <main>
+    <object data="orian-sharoni-cv.pdf#view=FitH" type="application/pdf" aria-label="Orian Sharoni's CV">
+      <div class="fallback">Read my CV: <a href="orian-sharoni-cv.pdf">open the PDF</a> or use the download button above.</div>
+    </object>
+  </main>
+</body>
+</html>
